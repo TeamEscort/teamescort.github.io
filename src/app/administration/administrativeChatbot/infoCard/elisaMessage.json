@@ -1,0 +1,37 @@
+{
+  "englishInfo": [
+    {
+      "info": "Elisa is a SLIIT administrative chatbot."
+    },
+    {
+      "info": "Ask any questions related to slit administration to Elisa.(Courses, Payment, Registration, Shuttle, Games, Events, etc)"
+    },
+    {
+      "info": "You can ask questions in English only. If you want to ask in any other languages, please go back and choose the asking language."
+    }
+  ],
+
+  "tamilInfo": [
+    {
+      "info": "எலிசா ஒரு ஸ்லிட் நிர்வாக சாட்போட்."
+    },
+    {
+      "info": "ஸ்லிட் நிர்வாகம் தொடர்பான ஏதேனும் கேள்விகளை எலிசாவிடம் கேளுங்கள்.(பாடங்கள், கட்டணம், பதிவு, பேருந்து சேவை, விளையாட்டுகள், நிகழ்வுகள் போன்றவை)"
+    },
+    {
+      "info": "தமிழில் மட்டுமே கேள்விகள் கேட்க முடியும். நீங்கள் வேறு ஏதேனும் மொழிகளில் கேட்க விரும்பினால், தயவுசெய்து திரும்பிச் சென்று கேட்கும் மொழியைத் தேர்ந்தெடுக்கவும்."
+    }
+  ],
+
+  "codeMixInfo": [
+    {
+      "info": "Elisa oru SLIIT nirvaga chatbot."
+    },
+    {
+      "info": "SLIIT nirvagam thodarpana ethanum kelvikalai Elisavidam kelungal.(Paadangal, kettanam, pathivu, perunthu sevai, velayaatukal, nikalvukaḷ pondravai)"
+    },
+    {
+      "info": "Tanglish il mattume kelvikalai ketka mudiyum. Neengal veru ethanum mozhikalai ketka virumbinal, thayavu seithu thirumbi sendru ketkum mozhliyai thernthu edukavum."
+    }
+  ]
+}

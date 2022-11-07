@@ -1,0 +1,197 @@
+[
+  {
+    "questionText": "John is trying to sketch a design for his website. What are the things John must do when sketching his design?",
+    "answerOptions": [
+      "John will not be able to show the transition in sketching",
+      "John needs to spend more time doing the sketching",
+      "John should set a fixed time of the day and duration to perform the sketch",
+      "John can make a complex sketch then you can modify them for the final product"
+    ],
+    "correctAnswer": "John will not be able to show the transition in sketching"
+  },
+  {
+    "questionText": "What is the suitable statement about empathize of design thinking phases?",
+    "answerOptions": [
+      "Brainstorm many possible solutions",
+      "Priorities the core functions and synthesize them",
+      "Discuss about the overall design with the user",
+      "Identify the requirements exactly and sort in order to priority"
+    ],
+    "correctAnswer": "Identify the requirements exactly and sort in order to priority"
+  },
+  {
+    "questionText": "Design thinking some times visualized as a linear process, bt it is actually:?",
+    "answerOptions": [
+      "Incremental and recursive",
+      "Iterative and recursive",
+      "Sequential and recursive",
+      "Iterative and incremental"
+    ],
+    "correctAnswer": "Iterative and recursive"
+  },
+  {
+    "questionText": "Which one is not an cognitive process?",
+    "answerOptions": ["Attention", "Memory", "Perception", "Argueing"],
+    "correctAnswer": "Argueing"
+  },
+  {
+    "questionText": "Which of the following is not a user interface design process?",
+    "answerOptions": [
+      "User, task, and environment analysis and modeling",
+      "Interface design",
+      "Knowledgeable, frequent users",
+      "Interface validation"
+    ],
+    "correctAnswer": "Knowledgeable, frequent users"
+  },
+  {
+    "questionText": "A college is redesigning its website Current students are the main users of the website Which one of the below elements should definitely be on the website?",
+    "answerOptions": [
+      "College rules and regulations",
+      "Information on faculty members",
+      "Information about courses",
+      "Alumni details"
+    ],
+    "correctAnswer": "Information about courses"
+  },
+  {
+    "questionText": "Design Thinking typically helps in _______?",
+    "answerOptions": [
+      "Innovation",
+      "Data Analytics",
+      "Financial Planning",
+      "Operational Efficiency"
+    ],
+    "correctAnswer": "Innovation"
+  },
+  {
+    "questionText": "Which one of the following best describes 'ethnography'?",
+    "answerOptions": [
+      "Research about different ethnic groups",
+      "Early childhood research",
+      "Experimental research",
+      "Naturalistic research"
+    ],
+    "correctAnswer": "Naturalistic research"
+  },
+  {
+    "questionText": "Which of these is NOT part of the anthropological perspective?",
+    "answerOptions": [
+      "Ethnocentrism",
+      "Cross-cultural study",
+      "Holism",
+      "Cultural relativism"
+    ],
+    "correctAnswer": "Ethnocentrism"
+  },
+  {
+    "questionText": "Which of the following is not a type of user interface?",
+    "answerOptions": [
+      "Command language based",
+      "Menu based",
+      "Efficiency based",
+      "Direct manipulation based"
+    ],
+    "correctAnswer": "Efficiency based"
+  },
+  {
+    "questionText": "Compared with users who skip a mobile-app walk through tutorial, users who sit through the tutorial will?",
+    "answerOptions": [
+      "Be faster to perform a task within the app",
+      "Be less likely to successfully complete a task within the app",
+      "Perceive a task within the app as more difficult",
+      "Enjoy the app more"
+    ],
+    "correctAnswer": "Perceive a task within the app as more difficult"
+  },
+  {
+    "questionText": "Which of the following accordion signifier is most likely to signal to users that the accordion will open in place rather than leading to a new page?",
+    "answerOptions": [
+      "A plus",
+      "A right arrow",
+      "A caret (downward-facing arrow)",
+      "No icon at all"
+    ],
+    "correctAnswer": "A caret (downward-facing arrow)"
+  },
+  {
+    "questionText": "Which of the following is an example of Campbell's law?",
+    "answerOptions": [
+      "Airbnb hosts begging customers for high ratings",
+      "Shoppers with niche needs making up for a high aggregated sales volume",
+      "Small number of web pages accumulating most page views",
+      "The tendency of most webpage layouts to follow golden-ratio proportions"
+    ],
+    "correctAnswer": "Airbnb hosts begging customers for high ratings"
+  },
+  {
+    "questionText": "User interface design begins with?",
+    "answerOptions": [
+      "Identification of user, task, and environmental requirements",
+      "User scenarios are created and analyzed to define a set of interface objects and actions",
+      "It creates a screen layout that depicts graphical design",
+      "All of the mentioned above"
+    ],
+    "correctAnswer": "All of the mentioned above"
+  },
+  {
+    "questionText": "What is the user interface analysis and design?",
+    "answerOptions": [
+      "It's a process of system implementation",
+      "It is an overall process for analyzing and designing a user interface",
+      "It's a process of system testing",
+      "None of the mentioned above"
+    ],
+    "correctAnswer": "It is an overall process for analyzing and designing a user interface"
+  },
+  {
+    "questionText": "An Interface analysis focuses on?",
+    "answerOptions": [
+      "The profile of the users who will interact with the system",
+      "Skill level, business understanding, and general receptiveness to the new system",
+      "For each user category, requirements are elicited",
+      "All of the mentioned above"
+    ],
+    "correctAnswer": "All of the mentioned above"
+  },
+  {
+    "questionText": "What is grounding?",
+    "answerOptions": [
+      "The process of establishing common ground with a communication partner or a work team",
+      "The process of collecting user data on which to base design",
+      "The process of getting the user calm and comfortable at the beginning of a user test",
+      "The process of connecting with users to build empathy"
+    ],
+    "correctAnswer": "The process of establishing common ground with a communication partner or a work team"
+  },
+  {
+    "questionText": "What are workflows good for?",
+    "answerOptions": [
+      "Show layouts for pages that have static content",
+      "Indicate the flow of an interaction without overwhelming the reader with the details of page layouts",
+      "Document complex interactions on pages with a lot of dynamic content",
+      "Document complex interactions on sites with many discrete, relatively static pages"
+    ],
+    "correctAnswer": "Document complex interactions on pages with a lot of dynamic content"
+  },
+  {
+    "questionText": "Which of the following is true of hamburger menus?",
+    "answerOptions": [
+      "The overwhelming majority of users have no idea what the hamburger icon stands for",
+      "Hamburger menus tend to work better on the desktop than on mobile",
+      "Users find the navigation faster when it is placed in a hamburger menu than when it is displayed in a visible navigation bar",
+      "When navigation is placed inside a hamburger menu, users are less likely to use it than when it is displayed in a visible navigation bar"
+    ],
+    "correctAnswer": "When navigation is placed inside a hamburger menu, users are less likely to use it than when it is displayed in a visible navigation bar"
+  },
+  {
+    "questionText": "What is the best practice for logging in and registration on E-commerce websites?",
+    "answerOptions": [
+      "Ask users to log in or create an account if they do not have one; do not offer a guest checkout option, but explain the benefits of registration",
+      "Allow users to check out as guests",
+      "Ask users to log in or create an account if they do not have one; do not offer a guest checkout option",
+      "Allow users to check out as guests and offer the option to register at the end of the checkout"
+    ],
+    "correctAnswer": "Allow users to check out as guests and offer the option to register at the end of the checkout"
+  }
+]

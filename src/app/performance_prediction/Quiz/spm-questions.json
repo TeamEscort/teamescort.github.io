@@ -1,0 +1,187 @@
+[
+  {
+    "questionText": "What is not a software process activity from the followings?",
+    "answerOptions": [
+      "Software specification",
+      "Software development",
+      "Software validation",
+      "Software verification"
+    ],
+    "correctAnswer": "Software verification"
+  },
+  {
+    "questionText": "Which is a very suitable term to describe the following sentence 'Involves clearly documenting the expectations on the system to be built'?",
+    "answerOptions": [
+      "Software specification",
+      "Software development",
+      "Software validation",
+      "Software evolution"
+    ],
+    "correctAnswer": "Software specification"
+  },
+  {
+    "questionText": "Select one of the modern approaches of life cycle model?",
+    "answerOptions": [
+      "Waterfall mode, Incremental model",
+      "Prototyping model, Agile methods",
+      "Spiral model, Secure software development",
+      "Agile methods, Secure software development"
+    ],
+    "correctAnswer": "Agile methods, Secure software development"
+  },
+  {
+    "questionText": "What is another name for the linear model?",
+    "answerOptions": [
+      "Waterfall model",
+      "Incremental model",
+      "Prototyping model",
+      "Spiral model"
+    ],
+    "correctAnswer": "Waterfall model"
+  },
+  {
+    "questionText": "What is the aim of requirements analysis?",
+    "answerOptions": [
+      "To know who will use the system",
+      "What to be done",
+      "Exactly what the customer needs",
+      "None of the above"
+    ],
+    "correctAnswer": "Exactly what the customer needs"
+  },
+  {
+    "questionText": "What is not a strength of waterfall model?",
+    "answerOptions": [
+      "Defects are detected and fixed early",
+      "Simple and easy to manage",
+      "Milestones are better understood",
+      "Sets requirements stability"
+    ],
+    "correctAnswer": "Defects are detected and fixed early"
+  },
+  {
+    "questionText": "Which model is the evolution of waterfall model?",
+    "answerOptions": [
+      "Iterative model",
+      "Incremental model",
+      "Prototyping model",
+      "Spiral model"
+    ],
+    "correctAnswer": "Incremental model"
+  },
+  {
+    "questionText": "What is not a type of stakeholder?",
+    "answerOptions": [
+      "End users",
+      "System managers",
+      "System owners ",
+      "Software engineer"
+    ],
+    "correctAnswer": "Software engineer"
+  },
+  {
+    "questionText": "Select requirements elicitation techniques?",
+    "answerOptions": [
+      "Interviewing, Observation/Ethnography",
+      "Emailing, Mms",
+      "Phone call, Whatsapp",
+      "Reading documentation, Browsing internet"
+    ],
+    "correctAnswer": "Interviewing, Observation/Ethnography"
+  },
+  {
+    "questionText": "What is the disadvantage of the spiral model?",
+    "answerOptions": [
+      "Does not work well for smaller projects",
+      "The high amount of risk analysis",
+      "Additional functionality can be added later",
+      "Strong approval and documentation control"
+    ],
+    "correctAnswer": "Does not work well for smaller projects"
+  },
+  {
+    "questionText": "In Software Engineering the method of CMM model is used to _____ ?",
+    "answerOptions": [
+      "Improve the testing process",
+      "Improve the software process",
+      "Develop the software",
+      "Maintain the software"
+    ],
+    "correctAnswer": "Improve the software process"
+  },
+  {
+    "questionText": "In which model the project risk factor is considered?",
+    "answerOptions": [
+      "Spiral model",
+      "Waterfall model",
+      "Prototyping model",
+      "Incremental model"
+    ],
+    "correctAnswer": "Spiral model"
+  },
+  {
+    "questionText": "What is the most important use of the incremental model?",
+    "answerOptions": [
+      "Customers can respond to each increment",
+      "Easier to test and debug",
+      "To use it when we need to get a product to the market early",
+      "Easier to test and debug and use it when we need to get a product to the market early"
+    ],
+    "correctAnswer": "Easier to test and debug and use it when we need to get a product to the market early"
+  },
+  {
+    "questionText": "The incremental model is the combination of which models?",
+    "answerOptions": [
+      "Build and FIX Model and waterfall model",
+      "Linear model and waterfall model",
+      "Linear model and Prototyping model",
+      "Linear model & RAD model"
+    ],
+    "correctAnswer": "Linear model and Prototyping model"
+  },
+  {
+    "questionText": "Which of the following name is not a named phase in SDLC?",
+    "answerOptions": ["Assessment", "Maintenance", "Development", "Testing"],
+    "correctAnswer": "Assessment"
+  },
+  {
+    "questionText": "Which of the following is the most important phase of SDLC?",
+    "answerOptions": ["Requirement analysis", "Design", "Coding", "Testing"],
+    "correctAnswer": "Requirement analysis"
+  },
+  {
+    "questionText": "Which step of SDLC performs cost benefit analysis?",
+    "answerOptions": [
+      "Feasibility study",
+      "Requirement analysis",
+      "Design",
+      "None of the above"
+    ],
+    "correctAnswer": "Feasibility study"
+  },
+  {
+    "questionText": "Who is the person who typically manages the software development project?",
+    "answerOptions": [
+      "Software engineer",
+      "Project manager",
+      "IT programmer",
+      "Business analyst"
+    ],
+    "correctAnswer": "Project manager"
+  },
+  {
+    "questionText": "Select one the component should not be in the SRS document?",
+    "answerOptions": [
+      "Use case diagram",
+      "Constraint of the system",
+      "Functional requirement",
+      "Blueprint of the system"
+    ],
+    "correctAnswer": "Blueprint of the system"
+  },
+  {
+    "questionText": "If the product or solution is first divided into features which need to be developed. If there are new features identified in the midsts of complete product release it again gets planned across sprints. What kind of SDLC that suitable for that condition?",
+    "answerOptions": ["Iterative model", "Scrum model", "RAD", "Agile - XP"],
+    "correctAnswer": "Scrum model"
+  }
+]

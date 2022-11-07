@@ -1,0 +1,15 @@
+export const administrationChatbot = {
+  english: "english",
+  tamil: "tamil",
+  englishMsg: "Hi. I am Elisa. Glad to help you.",
+  tamilMsg: "வணக்கம். நான் எலிசா. உங்களுக்கு உதவுவதில் மகிழ்ச்சி.",
+  thanglishMsg: "Vanakam. Naan Elisa. Ungalluku uthavuvathil makilcci.",
+  englishAdminBot: "Administrative Chatbot",
+  tamilAdminBot: "நிர்வாக சாட்போட்",
+  thanglishAdminBot: "Nirvaga Chatbot",
+  elisaEnglishAdminBot: "Elisa - The administrative chatbot",
+  elisaTamilAdminBot: "எலிசா - நிர்வாக சாட்போட்",
+  elisaTanglishAdminBot: "Elisa - Nirvaga Chatbot",
+  back: "Back",
+  send: "Send",
+}

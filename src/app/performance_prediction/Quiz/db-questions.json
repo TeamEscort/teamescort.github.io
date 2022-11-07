@@ -1,0 +1,147 @@
+[
+  {
+    "questionText": "Which of the following can not be NULL?",
+    "answerOptions": [
+      "Object",
+      "A column value in a table",
+      "A collection",
+      "None of the above"
+    ],
+    "correctAnswer": "None of the above"
+  },
+  {
+    "questionText": "What is not a table joining algorithm in query processing?",
+    "answerOptions": [
+      "External merge sort algorithm",
+      "Simple nested loop join",
+      "Block nested loop join",
+      "Index nested loop join"
+    ],
+    "correctAnswer": "External merge sort algorithm"
+  },
+  {
+    "questionText": "How differ Static Hashing from Extendible Hashing?",
+    "answerOptions": [
+      "Does not create long overflow chains",
+      "Allow fixed number of primary buckets to store the records",
+      "Primary nodes will delete if empty",
+      "Performance is not affected when file is growing"
+    ],
+    "correctAnswer": "Allow fixed number of primary buckets to store the records"
+  },
+  {
+    "questionText": "Assume you have 9 buffer pages to sort 120 pages in a file. How many passes we get in external merge sort?",
+    "answerOptions": ["4", "3", "6", "5"],
+    "correctAnswer": "5"
+  },
+  {
+    "questionText": "What is not a root cause for un-serializable schedules?",
+    "answerOptions": [
+      "Dirty reads",
+      "Unrepeatable reads",
+      "Overwriting uncommitted data",
+      "Serial schedules"
+    ],
+    "correctAnswer": "Serial schedules"
+  },
+  {
+    "questionText": "What is co-dependent types in Object Relational Model?",
+    "answerOptions": [
+      "Cycle of references between two types",
+      "Conflicts between two types of data objects",
+      "Conflicts between two tables",
+      "Cycle of references between two tables"
+    ],
+    "correctAnswer": "Conflicts between two types of data objects"
+  },
+  {
+    "questionText": "Consider a disk with sector size of 512 bytes, 3000 tracks per surface, 40 sectors per track and five single-side platters.Each disk block spans two sectors. The disk platters rotate at 7200 rpm (revolutions per minute). Compute the capacity of the disk in blocks?",
+    "answerOptions": [
+      "(40/2) * 5 * 3000 * 512 blocks",
+      "40 * 5 * 3000 * 512 blocks",
+      "40 * 5 * 3000 blocks",
+      "(40/20) * 5 * 3000 blocks"
+    ],
+    "correctAnswer": "40 * 5 * 3000 * 512 blocks"
+  },
+  {
+    "questionText": "Which one is incorrect on Indexing?",
+    "answerOptions": [
+      "Dense index facilitates to fast searching",
+      "Primary index has a key field",
+      "Secondary index has a key field",
+      "Used to optimize the performance of access the data"
+    ],
+    "correctAnswer": "Secondary index has a key field"
+  },
+  {
+    "questionText": "Which combination is true?",
+    "answerOptions": [
+      "Sequential file - Sorted records",
+      "B+ tree file - Dynamic tree index",
+      "Heap file - Records inserted to the begin of the file",
+      "Hashed file - Good for equality selection"
+    ],
+    "correctAnswer": "Heap file - Records inserted to the begin of the file"
+  },
+  {
+    "questionText": "Assume you have 5 buffer pages to sort 72 page files. Calculate the cost with external buffer pages?",
+    "answerOptions": ["75", "576", "432", "87"],
+    "correctAnswer": "432"
+  },
+  {
+    "questionText": "Select the correct foreign key constraint?",
+    "answerOptions": [
+      "Referential Integrity",
+      "Entity Integrity",
+      "Domain Integrity",
+      "None"
+    ],
+    "correctAnswer": "Referential Integrity"
+  },
+  {
+    "questionText": "Which of the following is not a SQL command",
+    "answerOptions": ["DELETE", "ORDER BY", "SELECT", "WHERE"],
+    "correctAnswer": "DELETE"
+  },
+  {
+    "questionText": "How is ER diagram represented?",
+    "answerOptions": ["Circle", "Ellipse", "Triangle", "Square"],
+    "correctAnswer": "Ellipse"
+  },
+  {
+    "questionText": "Which data structure is used in Hierarchical model records?",
+    "answerOptions": ["Graph", "Tree", "Linked list", "Stacks"],
+    "correctAnswer": "Tree"
+  },
+  {
+    "questionText": "Select the relational algebra operation?",
+    "answerOptions": ["Union", "Select", "Rename", "All of the above"],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "questionText": "Which of the following allows to uniquely identify a tuple?",
+    "answerOptions": ["Schema", "Attribute", "Super Key", "Domain"],
+    "correctAnswer": "Super Key"
+  },
+  {
+    "questionText": "Which of the following SQL command is used for removing (or deleting) a relation form the database?",
+    "answerOptions": ["Drop", "Delete", "Rollback", "Remove"],
+    "correctAnswer": "Drop"
+  },
+  {
+    "questionText": "What is rows of a relation known as?",
+    "answerOptions": ["Degree", "Entity", "Tuple", "None"],
+    "correctAnswer": "Tuple"
+  },
+  {
+    "questionText": "Which normalization form is based on the transitive dependency?",
+    "answerOptions": ["1NF", "2NF", "3NF", "BCNF"],
+    "correctAnswer": "3NF"
+  },
+  {
+    "questionText": "Which of the following is the property of transaction that protects data from system failure?",
+    "answerOptions": ["Atomicity", "Isolation", "Durability", "Consistency"],
+    "correctAnswer": "Durability"
+  }
+]

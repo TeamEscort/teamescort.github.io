@@ -1,0 +1,187 @@
+[
+  {
+    "questionText": "Select the correct debugging techniques?",
+    "answerOptions": [
+      "Bottom-up debugging",
+      "Post-mortem debugging",
+      "Interactive debugging",
+      "Top-down debugging"
+    ],
+    "correctAnswer": "Post-mortem debugging"
+  },
+  {
+    "questionText": "How to pass the parameter for the property file?",
+    "answerOptions": [
+      "Using java.Util.Hashtable",
+      "Using an XML file",
+      "Using the java.text.MessageFormat",
+      "You can use all 3 methods"
+    ],
+    "correctAnswer": "Using the java.text.MessageFormat"
+  },
+  {
+    "questionText": "Select correct approaches to instrumentation?",
+    "answerOptions": [
+      "Binary serialization",
+      "Binary translation",
+      "Constructor injection",
+      "Above all"
+    ],
+    "correctAnswer": "Binary translation"
+  },
+  {
+    "questionText": "What is the correct tool regarding Continuous Integration and Testing?",
+    "answerOptions": ["Bamboo", "Jasmine", "Cake", "Jenkins"],
+    "correctAnswer": "Jenkins"
+  },
+  {
+    "questionText": "In best practices why do you use the packaging?",
+    "answerOptions": [
+      "It increases the performance",
+      "It increases the maintainability",
+      "It enhances the understandability",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "questionText": "What are the possible code smells detected through profiling?",
+    "answerOptions": [
+      "Usage of interfaces and abstract method",
+      "Redundant code execution paths",
+      "Runtime exception specific issues",
+      "All of the above"
+    ],
+    "correctAnswer": "Redundant code execution paths"
+  },
+  {
+    "questionText": "Select the most correct statement regarding the UML?",
+    "answerOptions": [
+      "Use case diagram is a Structural diagram",
+      "Activity diagram and State diagram are Behavioral diagrams",
+      "Class diagram display the static view",
+      "None of the mentioned"
+    ],
+    "correctAnswer": "Activity diagram and State diagram are Behavioral diagrams"
+  },
+  {
+    "questionText": "Select the correct tool used for Application profiling?",
+    "answerOptions": ["Parasoft", "PHPUnit", "Mockito", "Java Mission Control"],
+    "correctAnswer": "Java Mission Control"
+  },
+  {
+    "questionText": "Select the correct types of profiling techniques?",
+    "answerOptions": [
+      "Event based profiling",
+      "Sampling profiling",
+      "Service based profiling",
+      "All of the above"
+    ],
+    "correctAnswer": "Event based profiling"
+  },
+  {
+    "questionText": "What is the correct statement regarding coupling and the cohesion?",
+    "answerOptions": [
+      "Low coupling and low cohesion",
+      "High coupling and low cohesion",
+      "Low coupling and high cohesion",
+      "None of the mentioned"
+    ],
+    "correctAnswer": "Low coupling and low cohesion"
+  },
+  {
+    "questionText": "Which of the following model has a major downfall to a software development life cycle in terms of the coding phase?",
+    "answerOptions": [
+      "4GT Model",
+      "Waterfall Model",
+      "RAD Model",
+      "Spiral Model"
+    ],
+    "correctAnswer": "4GT Model"
+  },
+  {
+    "questionText": "Which one of the following activities is not recommended for software processes in software engineering?",
+    "answerOptions": [
+      "Software Evolution",
+      "Software Verification",
+      "Software Testing & Validation",
+      "Software designing"
+    ],
+    "correctAnswer": "Software Verification"
+  },
+  {
+    "questionText": "The agile software development model is built based on __________?",
+    "answerOptions": [
+      "Linear Development",
+      "Incremental Development",
+      "Iterative Development",
+      "Both Incremental and Iterative Development"
+    ],
+    "correctAnswer": "Both Incremental and Iterative Development"
+  },
+  {
+    "questionText": "The __________ model helps in representing the system's dynamic behavior?",
+    "answerOptions": [
+      "Object Model",
+      "Context Model",
+      "Behavioral Model",
+      "Data Model"
+    ],
+    "correctAnswer": "Behavioral Model"
+  },
+  {
+    "questionText": "Which of the following word correctly summarized the importance of software design?",
+    "answerOptions": ["Quality", "Complexity", "Efficiency", "Accuracy"],
+    "correctAnswer": "Quality"
+  },
+  {
+    "questionText": "What does RAD stand for?",
+    "answerOptions": [
+      "Rapid Application Document",
+      "Rapid Application Development",
+      "Relative Application Development",
+      "None of the above"
+    ],
+    "correctAnswer": "Rapid Application Development"
+  },
+  {
+    "questionText": "Which type of design patterns concern class and object composition?",
+    "answerOptions": [
+      "Creational Design Patterns",
+      "Structural Design Patterns",
+      "Behavioral Design Pattern",
+      "J2EE Design Patterns"
+    ],
+    "correctAnswer": "Structural Design Patterns"
+  },
+  {
+    "questionText": "What is the major drawback of the Spiral Model?",
+    "answerOptions": [
+      "Higher amount of risk analysis",
+      "Doesn't work well for smaller projects",
+      "Additional functionalities are added later on",
+      "Strong approval and documentation control"
+    ],
+    "correctAnswer": "Doesn't work well for smaller projects"
+  },
+  {
+    "questionText": "Which of the following pattern allows a user to add new functionality to an existing object without altering its structure?",
+    "answerOptions": [
+      "Composite Pattern",
+      "Facade Pattern",
+      "Flyweight Pattern",
+      "Decorator Pattern"
+    ],
+    "correctAnswer": "Decorator Pattern"
+  },
+  {
+    "questionText": "UML stands for?",
+    "answerOptions": [
+      "Uniform modeling language",
+      "Unified modeling language",
+      "Unit modeling language",
+      "Universal modeling language"
+    ],
+    "correctAnswer": "Unified modeling language"
+  }
+]
