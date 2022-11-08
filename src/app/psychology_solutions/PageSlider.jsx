@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-carousel-minimal';
 import { useNavigate } from "react-router";
 
-import S1 from "../../assets/abarna/slider/s1.png";
-import S2 from "../../assets/abarna/slider/s2.png";
-import S3 from "../../assets/abarna/slider/s3.jpg";
-import S4 from "../../assets/abarna/slider/s4.png";
-import S6 from "../../assets/abarna/slider/s6.jpg";
+import S1 from "../../assets/abarna/slider/slide1.jpg";
+import S2 from "../../assets/abarna/slider/slide2.jpg";
+import S3 from "../../assets/abarna/slider/slide3.jpg";
+import S4 from "../../assets/abarna/slider/slide4.jpg";
+
 
 const PageSlider = () => {
     const push = useNavigate();
@@ -14,29 +14,28 @@ const PageSlider = () => {
     const data = [
         {
             image: S1,
-            caption: ""
+            caption: "Recommending Solutions for Psychological Issues"
         },
         {
             image: S2,
-            caption: ""
+            caption: "Recommending Solutions for Psychological Issues"
         },
         {
             image: S3,
-            caption: ""
+            caption: "Recommending Solutions for Psychological Issues"
         },
         {
             image: S4,
-            caption: ""
+            caption: "Recommending Solutions for Psychological Issues"
         },
-        {
-            image: S6,
-            caption: ""
-        },
+
     ];
 
     const captionStyle = {
-        fontSize: '2em',
+        fontSize: '3em',
         fontWeight: 'bold',
+        
+        // color: 'black',
     }
     const slideNumberStyle = {
         fontSize: '20px',
@@ -48,10 +47,10 @@ const PageSlider = () => {
             <Carousel
                 data={data}
                 time={3000}
-                width="1100px"
-                height="400px"
+                width="1800px"
+                height="500px"
                 captionStyle={captionStyle}
-                radius="10px"
+                // radius="10px"
                 captionPosition="bottom"
                 automatic={true}
                 dots={true}
@@ -61,8 +60,8 @@ const PageSlider = () => {
                 slideImageFit="cover"
                 style={{
                     textAlign: "center",
-                    maxWidth: "1100px",
-                    maxHeight: "500px",
+                    maxWidth: "1800px",
+                    maxHeight: "400px",
                     margin: "20px auto",
                 }}
             />

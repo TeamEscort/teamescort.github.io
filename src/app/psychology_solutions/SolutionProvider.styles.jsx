@@ -6,7 +6,7 @@ export const useStyles = makeStyles(({ breakpoints, spacing }) => ({
         marginBottom: spacing(1),
         display: "flex",
         justifyContent: "center",
-        fontSize: 25,
+        fontSize: 35,
         fontFamily: "Garamond",
         fontWeight: "bold",
     },
@@ -17,7 +17,8 @@ export const useStyles = makeStyles(({ breakpoints, spacing }) => ({
     },
 
     imgDiv: {
-        width: "100%"
+        width: "100%",
+        height: 285
     },
 
     submit: {
@@ -50,7 +51,7 @@ export const useStyles = makeStyles(({ breakpoints, spacing }) => ({
         marginBottom: spacing(1),
         display: "flex",
         justifyContent: "center",
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: "bold",
         fontFamily: "Trajon"
     },
