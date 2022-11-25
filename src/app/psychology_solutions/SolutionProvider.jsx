@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
@@ -8,9 +7,13 @@ import Container from '@material-ui/core/Container';
 import { useNavigate } from "react-router";
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
+import { SpinnerRoundFilled } from 'spinners-react';
 
 import { useStyles } from "./SolutionProvider.styles";
-import Background from "../../assets/abarna/bg.jpg";
+import Psychologist from "../../assets/abarna/psychologist.jpg";
+import Idea from "../../assets/abarna/idea.png";
+import SadLight from "../../assets/abarna/sad_light.png";
+import Light from "../../assets/abarna/light.png";
 
 const BaseURL = 'https://psychology-backend.herokuapp.com'
 // const BaseURL = 'http://127.0.0.1:5002'
@@ -22,6 +25,8 @@ const SolutionProvider = () => {
   const [solutions, setSolutions] = useState([]);
   var title = false
 
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = event => {
     event.preventDefault();
     event.target.reset();
@@ -30,46 +35,55 @@ const SolutionProvider = () => {
     }
 
     if (location.state.language === "english") {
-      axios.post(BaseURL+'/english/submitted', data,{
+      axios.post(BaseURL + '/english/submitted', data, {
         headers: {
           'Access-Control-Allow-Origin': true,
-        }})
+        }
+      }, setLoading(true))
         .then(res => {
           const data = res.data
           setSolutions(data)
+          setLoading(false)
         })
         .catch(error => console.log(error))
     }
     else if (location.state.language === "tamil") {
-      axios.post(BaseURL+'/tamil/submitted', data,{
+      axios.post(BaseURL + '/tamil/submitted', data, {
         headers: {
           'Access-Control-Allow-Origin': true,
-        }})
+        }
+      }, setLoading(true))
         .then(res => {
           const data = res.data
           setSolutions(data)
+          setLoading(false)
         })
+
         .catch(error => console.log(error))
     }
     else if (location.state.language === "sinhala") {
-      axios.post(BaseURL+'/sinhala/submitted', data,{
+      axios.post(BaseURL + '/sinhala/submitted', data, {
         headers: {
           'Access-Control-Allow-Origin': true,
-        }})
+        }
+      }, setLoading(true))
         .then(res => {
           const data = res.data
           setSolutions(data)
+          setLoading(false)
         })
         .catch(error => console.log(error))
     }
     else if (location.state.language === "thanglish") {
-      axios.post(BaseURL+'/thanglish/submitted', data,{
+      axios.post(BaseURL + '/thanglish/submitted', data, {
         headers: {
           'Access-Control-Allow-Origin': true,
-        }})
+        }
+      }, setLoading(true))
         .then(res => {
           const data = res.data
           setSolutions(data)
+          setLoading(false)
         })
         .catch(error => console.log(error))
     }
@@ -79,16 +93,33 @@ const SolutionProvider = () => {
   const checkData = () => {
     if (solutions.length > 0) {
       return (
-        <Typography className={styles.heading}>
-
-          {location.state.language === "english"
-            ? "Solutions for your issues"
-            : location.state.language === "tamil"
-              ? "பரிந்துரைக்கப்பட்ட தீர்வுகள்"
-              : location.state.language === "sinhala"
-                ? "ප්රධාන වචන"
+        <div>
+          <Typography className={styles.heading}>
+            {location.state.language === "english"
+              ? "Solutions for your issues"
+              : location.state.language === "tamil"
+                ? "பரிந்துரைக்கப்பட்ட தீர்வுகள்"
+                : location.state.language === "sinhala"
+                  ? "ප්රධාන වචන"
                   : "Parinthuraikappatta Theervukal"}
-        </Typography>
+          </Typography>
+
+          {solutions.map((s) => {
+            if (s.solution == "No results found" || s.solution == "முடிவுகள் எதுவும் இல்லை" || s.solution == "ප්‍රතිඵල හමු නොවිණි" || s.solution == "Mudivukal ethuvum illai") {
+              return <div className={styles.notFound}>
+                <div className={styles.sadDiv}>
+                  <img src={SadLight} className={styles.sadImg} />
+                </div>
+                <p>{s.solution}</p>
+              </div>
+            }
+            else {
+              return <span className={styles.span}><img src={Idea} className={styles.idea} /><p>{s.solution}</p></span>
+            }
+
+          })}
+
+        </div>
       )
     }
     else {
@@ -101,7 +132,7 @@ const SolutionProvider = () => {
 
       <Grid container spacing={2} className={styles.main}>
         <Grid item xs={5}>
-          <img src={Background} alt="sliit" className={styles.imgDiv} />
+          <img src={Psychologist} alt="sliit" className={styles.imgDiv} />
 
           <div className={styles.text}>
             <Typography className={styles.heading}>
@@ -134,34 +165,7 @@ const SolutionProvider = () => {
                     : "Theadu pothaanai azhuththavum"}
             </Typography>
 
-            <Typography className={styles.para}>
-              {location.state.language === "english"
-                ? "If you want to predict your stress level please click this following button"
-                : location.state.language === "tamil"
-                  ? "உங்கள் மன அழுத்தத்தை கணிக்க விரும்பினால், பின்வரும் பொத்தானைஅழுத்தவும்"
-                  : location.state.language === "sinhala"
-                    ? "ඔබට ඔබේ ආතති මට්ටම පුරෝකථනය කිරීමට අවශ්ය නම් කරුණාකර පහත බොත්තම ක්ලික් කරන්න"
-                    : "Ungal mana azhuthathai kandariya virumbinal, pinvarum pothaanai azhuththavum"}
-            </Typography>
-
-            <Button
-              variant="contained"
-              className={styles.stressBtn}
-              onClick={() =>
-                push("/stress_level")
-              }
-            >
-              <Typography className={styles.text}>
-              {location.state.language === "english"
-                ? "Find Your Stress Level"
-                : location.state.language === "tamil"
-                  ? "மன அழுத்த அளவைக் கண்டறிக "
-                  : location.state.language === "sinhala"
-                    ? "ඔබේ ආතති මට්ටම සොයා ගන්න"
-                    : "mana azhutha alavai kandarika"}
-              </Typography>
-              {/* Find Your Stress Level */}
-            </Button>
+            <img src={Light} className={styles.lightImg} />
           </div>
         </Grid>
         <Grid item xs={1}></Grid>
@@ -192,43 +196,17 @@ const SolutionProvider = () => {
                 : location.state.language === "tamil"
                   ? "தேடு"
                   : location.state.language === "sinhala"
-                  ? "සෙවීම"
-                  : "Theadu"}
+                    ? "සෙවීම"
+                    : "Theadu"}
             </Button>
           </form>
 
           <div>
-            {checkData()}
+            {loading ? <div className={styles.spinner}><SpinnerRoundFilled size="70px" speed="100" color="#14A5C5" /></div> : checkData()}
           </div>
-
-          {solutions.map((s) => (
-            <p>{s.solution}</p>
-          ))}
         </Grid>
       </Grid>
       <div>
-        {/* <Button variant="outlined" onClick={() => push("/solution")}>
-            {location.state.language === "english"
-              ? "Back"
-              : location.state.language === "tamil"
-                ? "பின் செல்"
-                : "ආපසු"}
-          </Button> */}
-
-
-
-
-        {/* <Typography className={classes.heading}>
-              {location.state.language === "english"
-                ? "Please describe your issues here"
-                : location.state.language === "tamil"
-                  ? "உங்கள் உளவியல் பிரச்சினைகளை உள்ளிடவும்"
-                  : "ඔබගේ මනෝවිද්‍යාත්මක ගැටළු ඇතුලත් කරන්න"}
-            </Typography> */}
-
-
-
-
       </div>
 
 
